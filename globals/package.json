@@ -12,8 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^16.0.5",
-    "@types/react-dom": "^15.5.4",
+    "@types/node": "^8.0.28",
     "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "feedme": "^1.0.1"
   }
 }
