@@ -1,0 +1,19 @@
+{
+  "name": "ts_globals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "start": "node build/example.js",
+    "build": "tsc",
+    "v": "tsc -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "typescript": "^2.5.2"
+  }
+}
