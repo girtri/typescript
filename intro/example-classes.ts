@@ -20,7 +20,7 @@ millenniumFalcon.speedUp(100);
 // esempio con autoassegnazione proprietà privata tramite costruttore!
 class LightFreighter2 implements Starship 
 {
-	constructor(private speed: number = 0) {
+	constructor(private speed: number = 0, public pilot: string) {
 	}
 
 	public speedUp(increment: number): void {
@@ -28,8 +28,9 @@ class LightFreighter2 implements Starship
 	}
 }
 
-let millenniumFalcon2 = new LightFreighter2();
+let millenniumFalcon2 = new LightFreighter2(33, "Gerry");
 millenniumFalcon2.speedUp(50);
+console.log(millenniumFalcon2.pilot);
 
 // abstract class 
 abstract class MyStarship 
